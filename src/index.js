@@ -39,7 +39,7 @@ function onSelectElChange(event) {
       loaderEl.style.visibility = 'hidden';
       catInfoEl.hidden = false;
       catInfoEl.innerHTML = `<img src="${cat.url}" width="400" alt="${cat.breeds[0].id}">
-    <h3>${cat.breeds[0].name}</h3>
+    <h1>${cat.breeds[0].name}</h1>
     <p>Description: ${cat.breeds[0].description}</p>
     <p>Temperament: ${cat.breeds[0].temperament}</p>`;
     })
